@@ -1,0 +1,2372 @@
+[
+  {
+    "schedule": [
+      {
+        "id": "a47dc5e6-373b-4ca6-b4e9-33d082ebc90c",
+        "start_time": "2023-08-23T10:18:03.611Z",
+        "end_time": "2023-08-23T11:44:24.880Z",
+        "day_of_week": 10961,
+        "created_at": "2023-08-23T07:10:47.438Z",
+        "updated_at": "2023-08-23T08:46:06.475Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "fc86c054-e5f7-481d-ade5-29224d59da50",
+        "start_time": "2023-08-22T22:45:33.607Z",
+        "end_time": "2023-08-22T18:39:45.805Z",
+        "day_of_week": 56162,
+        "created_at": "2023-08-23T07:31:22.407Z",
+        "updated_at": "2023-08-22T13:40:12.880Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "63231c89-1f42-4e15-abd3-9c05bd9eb7cb",
+        "start_time": "2023-08-22T13:01:12.777Z",
+        "end_time": "2023-08-22T16:06:07.430Z",
+        "day_of_week": 40859,
+        "created_at": "2023-08-22T23:26:39.401Z",
+        "updated_at": "2023-08-23T10:09:28.189Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "059943b3-bfcc-4bb6-8058-14d9b75dc30d",
+        "start_time": "2023-08-23T03:25:14.069Z",
+        "end_time": "2023-08-22T21:09:11.238Z",
+        "day_of_week": 49563,
+        "created_at": "2023-08-22T14:39:15.450Z",
+        "updated_at": "2023-08-23T12:02:20.141Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "e069e59b-9d20-4ecc-8335-ab5d71a72d6d",
+        "start_time": "2023-08-22T19:02:09.508Z",
+        "end_time": "2023-08-23T00:53:50.541Z",
+        "day_of_week": 20201,
+        "created_at": "2023-08-23T06:04:20.845Z",
+        "updated_at": "2023-08-23T10:31:44.673Z",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "patient_record": [
+      {
+        "id": "48d490bd-2c6c-48aa-83bb-1a0ad477e692",
+        "patient_name": "Alice Johnson",
+        "patient_age": 31162,
+        "patient_gender": "Female",
+        "medical_history": "Asthma",
+        "current_medication": "Ventolin",
+        "created_at": "2023-08-23T09:29:23.333Z",
+        "updated_at": "2023-08-23T08:44:48.705Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "f4c173ac-744a-4bd1-a06b-1e369e2bb1f9",
+        "patient_name": "Robert Davis",
+        "patient_age": 82938,
+        "patient_gender": "Male",
+        "medical_history": "Diabetes",
+        "current_medication": "Insulin",
+        "created_at": "2023-08-23T10:59:46.690Z",
+        "updated_at": "2023-08-22T19:38:46.046Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "ca8a19e9-4454-48fb-aac9-d8c82a9fa6f1",
+        "patient_name": "Emily Thompson",
+        "patient_age": 38088,
+        "patient_gender": "Female",
+        "medical_history": "Hypertension",
+        "current_medication": "Lisinopril",
+        "created_at": "2023-08-23T00:52:09.375Z",
+        "updated_at": "2023-08-22T16:39:22.868Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "ccb01e81-0cfa-4896-abc5-b32374f01fbf",
+        "patient_name": "Daniel Martinez",
+        "patient_age": 17617,
+        "patient_gender": "Male",
+        "medical_history": "Arthritis",
+        "current_medication": "Ibuprofen",
+        "created_at": "2023-08-22T14:57:01.256Z",
+        "updated_at": "2023-08-23T09:44:39.790Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "c92f0de7-6216-4945-b3e6-65b66fb9fd9e",
+        "patient_name": "Olivia Anderson",
+        "patient_age": 20877,
+        "patient_gender": "Female",
+        "medical_history": "Migraine",
+        "current_medication": "Sumatriptan",
+        "created_at": "2023-08-22T17:56:41.713Z",
+        "updated_at": "2023-08-23T06:06:44.881Z",
+        "nurse_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "ba02e6f3-c128-4d70-9889-a6d8158b699a",
+        "created_at": "2023-08-22T20:19:38.405Z",
+        "updated_at": "2023-08-22T20:50:46.268Z",
+        "invoice_amount": 88997
+      },
+      {
+        "id": "5f4fb2a0-575e-4c5c-a74e-50553438c379",
+        "created_at": "2023-08-22T15:59:47.605Z",
+        "updated_at": "2023-08-22T19:03:50.367Z",
+        "invoice_amount": 27351
+      },
+      {
+        "id": "5e9b50c0-6a74-4a47-b3a9-8ad632e58f41",
+        "created_at": "2023-08-22T23:19:08.167Z",
+        "updated_at": "2023-08-23T05:52:33.111Z",
+        "invoice_amount": 38975
+      },
+      {
+        "id": "4a947d55-b534-46a1-b056-e3171e4d424d",
+        "created_at": "2023-08-22T14:20:58.218Z",
+        "updated_at": "2023-08-23T06:24:14.666Z",
+        "invoice_amount": 53609
+      },
+      {
+        "id": "82e5789c-987b-4076-9fdf-439c06a734d9",
+        "created_at": "2023-08-23T07:38:36.666Z",
+        "updated_at": "2023-08-23T10:43:06.615Z",
+        "invoice_amount": 46539
+      }
+    ],
+    "appointment": [
+      {
+        "id": "a55807f4-b498-4408-8a11-8b566bf27a57",
+        "date_time": "2023-08-22T22:16:47.349Z",
+        "duration": 73932,
+        "status": "Scheduled",
+        "created_at": "2023-08-23T02:35:17.836Z",
+        "updated_at": "2023-08-23T09:14:35.522Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "b4ba2970-6df5-40f8-a588-5594c06149a2",
+        "date_time": "2023-08-22T15:53:57.492Z",
+        "duration": 32508,
+        "status": "Cancelled",
+        "created_at": "2023-08-23T08:15:22.042Z",
+        "updated_at": "2023-08-22T17:38:28.305Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "bab21dde-44ff-4b84-9c56-d131835f3648",
+        "date_time": "2023-08-23T10:24:38.976Z",
+        "duration": 31680,
+        "status": "Completed",
+        "created_at": "2023-08-22T20:41:47.139Z",
+        "updated_at": "2023-08-23T06:36:15.941Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "c99cabdb-2fce-4eb3-ac6e-4fb067ae9b59",
+        "date_time": "2023-08-22T21:02:44.139Z",
+        "duration": 26826,
+        "status": "Rescheduled",
+        "created_at": "2023-08-23T07:53:59.375Z",
+        "updated_at": "2023-08-23T03:05:51.536Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "0418b4dd-4eac-44f7-8f7a-ed8c71df3c63",
+        "date_time": "2023-08-23T08:31:34.375Z",
+        "duration": 25323,
+        "status": "No Show",
+        "created_at": "2023-08-23T06:08:07.611Z",
+        "updated_at": "2023-08-23T11:09:59.037Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2d2c9a00-8755-4dbe-899c-465c0995b9e5",
+        "email": "Velva_Jaskolski84@yahoo.com",
+        "firstName": "Shad",
+        "lastName": "Stroman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8078780",
+        "tenantId": null
+      },
+      {
+        "reference": "0b775b7e-bcc1-40f2-bc32-c1e7bac42b2e",
+        "email": "Nelda_Bednar@hotmail.com",
+        "firstName": "Johathan",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/509.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3ad81c0c-25ac-40ab-9001-91b133082ef9",
+        "email": "Sedrick38@gmail.com",
+        "firstName": "Lelia",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1042.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "99f8cd10-0b83-4719-9ce0-6de2a27028d7",
+        "email": "Burdette_Jerde@gmail.com",
+        "firstName": "Rodolfo",
+        "lastName": "Moore",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/230.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d42a3eed-0408-4dfa-bc1b-260da1dc2be0",
+        "email": "Ephraim.Considine2@gmail.com",
+        "firstName": "Liliana",
+        "lastName": "Koch-Rau",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/938.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "schedule": [
+      {
+        "id": "c6b25e57-eca0-4730-9581-81d908a855af",
+        "start_time": "2023-08-23T08:26:08.831Z",
+        "end_time": "2023-08-22T13:48:07.399Z",
+        "day_of_week": 1126,
+        "created_at": "2023-08-22T15:27:05.915Z",
+        "updated_at": "2023-08-23T00:59:55.902Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "b02a7d03-bda7-40b8-af99-e38366fd7b97",
+        "start_time": "2023-08-23T06:53:15.885Z",
+        "end_time": "2023-08-23T09:31:49.468Z",
+        "day_of_week": 39042,
+        "created_at": "2023-08-22T14:27:00.045Z",
+        "updated_at": "2023-08-23T12:17:11.481Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "f4e4c661-7f50-40d8-a77b-a166ad2e9e6f",
+        "start_time": "2023-08-23T04:04:07.140Z",
+        "end_time": "2023-08-22T19:09:27.226Z",
+        "day_of_week": 58292,
+        "created_at": "2023-08-23T04:06:54.510Z",
+        "updated_at": "2023-08-22T17:49:34.332Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "908d4891-3001-4338-8999-7e65b4ab1767",
+        "start_time": "2023-08-22T18:57:28.708Z",
+        "end_time": "2023-08-23T02:58:39.135Z",
+        "day_of_week": 86146,
+        "created_at": "2023-08-23T04:08:44.158Z",
+        "updated_at": "2023-08-23T12:18:11.070Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "9c842baf-ca36-4cf7-a293-81096aa1c427",
+        "start_time": "2023-08-23T05:20:54.276Z",
+        "end_time": "2023-08-22T18:52:16.395Z",
+        "day_of_week": 47855,
+        "created_at": "2023-08-23T09:58:50.698Z",
+        "updated_at": "2023-08-23T12:56:42.180Z",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "patient_record": [
+      {
+        "id": "42250f1f-4a39-45a1-bdb1-72bd2d357517",
+        "patient_name": "John Doe",
+        "patient_age": 24142,
+        "patient_gender": "Male",
+        "medical_history": "No significant medical history",
+        "current_medication": "None",
+        "created_at": "2023-08-22T19:55:10.821Z",
+        "updated_at": "2023-08-23T05:57:30.103Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "95e7f2dd-edc1-4117-bb4b-bebe72294648",
+        "patient_name": "Jane Smith",
+        "patient_age": 69278,
+        "patient_gender": "Female",
+        "medical_history": "Asthma",
+        "current_medication": "Ibuprofen",
+        "created_at": "2023-08-23T12:51:07.180Z",
+        "updated_at": "2023-08-22T17:24:25.296Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "55f4ec1c-d4c6-4f22-a587-d2a0e797ee5c",
+        "patient_name": "Michael Brown",
+        "patient_age": 2965,
+        "patient_gender": "Male",
+        "medical_history": "Diabetes",
+        "current_medication": "Metformin",
+        "created_at": "2023-08-23T02:39:24.352Z",
+        "updated_at": "2023-08-22T13:49:53.721Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "d4ca5b20-15ee-40e6-a87f-b9db161efe61",
+        "patient_name": "Sarah Jones",
+        "patient_age": 43693,
+        "patient_gender": "Female",
+        "medical_history": "Hypertension",
+        "current_medication": "Lisinopril",
+        "created_at": "2023-08-22T15:02:45.532Z",
+        "updated_at": "2023-08-23T05:32:01.809Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "593b8f1d-9074-44b1-a74a-fa6dfec9e7ed",
+        "patient_name": "Robert Wilson",
+        "patient_age": 44391,
+        "patient_gender": "Male",
+        "medical_history": "Allergies",
+        "current_medication": "Antihistamine",
+        "created_at": "2023-08-23T02:16:13.131Z",
+        "updated_at": "2023-08-23T01:21:20.717Z",
+        "nurse_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "d93f0702-8104-4ed8-9a8c-bbe192cf78b8",
+        "created_at": "2023-08-22T22:14:59.990Z",
+        "updated_at": "2023-08-22T18:18:17.424Z",
+        "invoice_amount": 21047
+      },
+      {
+        "id": "df867711-203c-46fb-8f66-b9d479f6221e",
+        "created_at": "2023-08-22T13:19:44.819Z",
+        "updated_at": "2023-08-22T15:56:03.604Z",
+        "invoice_amount": 96877
+      },
+      {
+        "id": "138e4134-0860-458e-80d8-6b5d5199731a",
+        "created_at": "2023-08-23T05:06:04.361Z",
+        "updated_at": "2023-08-23T05:41:06.849Z",
+        "invoice_amount": 75488
+      },
+      {
+        "id": "82f17a6b-9f5b-475a-a136-9f3f45de301e",
+        "created_at": "2023-08-23T05:13:01.956Z",
+        "updated_at": "2023-08-22T20:30:12.878Z",
+        "invoice_amount": 13779
+      },
+      {
+        "id": "4979bce2-60f9-4f57-ae6e-b6aa903cb6da",
+        "created_at": "2023-08-23T11:38:21.811Z",
+        "updated_at": "2023-08-23T04:50:10.329Z",
+        "invoice_amount": 28378
+      }
+    ],
+    "appointment": [
+      {
+        "id": "97a789a9-25d3-4065-a6f6-cc8768b7fab6",
+        "date_time": "2023-08-22T17:37:54.967Z",
+        "duration": 79396,
+        "status": "Scheduled",
+        "created_at": "2023-08-23T08:42:47.381Z",
+        "updated_at": "2023-08-22T19:06:09.164Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "1b1e8f74-0df6-4a15-85ba-be83de992d90",
+        "date_time": "2023-08-23T08:17:18.826Z",
+        "duration": 15747,
+        "status": "Cancelled",
+        "created_at": "2023-08-22T18:15:42.182Z",
+        "updated_at": "2023-08-23T09:27:07.046Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "f9f21e58-314b-4a7e-94db-e9301230df8a",
+        "date_time": "2023-08-23T09:35:06.703Z",
+        "duration": 53301,
+        "status": "Completed",
+        "created_at": "2023-08-22T18:05:14.551Z",
+        "updated_at": "2023-08-23T10:43:14.287Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "0d1ff207-5234-409c-84bb-de4fa9bbda18",
+        "date_time": "2023-08-22T18:22:33.556Z",
+        "duration": 5298,
+        "status": "Rescheduled",
+        "created_at": "2023-08-23T02:56:16.276Z",
+        "updated_at": "2023-08-22T16:02:46.589Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "2f021a83-f043-4226-87e0-c870253a7823",
+        "date_time": "2023-08-22T21:38:37.305Z",
+        "duration": 45582,
+        "status": "Pending",
+        "created_at": "2023-08-22T13:00:12.512Z",
+        "updated_at": "2023-08-23T01:05:01.368Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5752aa62-46e4-468e-9b55-4cc95c402336",
+        "email": "Daphnee64@gmail.com",
+        "firstName": "Haylie",
+        "lastName": "Bauch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/898.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5a8a305a-b471-44b1-bfe2-1a98891e1723",
+        "email": "Dorris.Kunde@gmail.com",
+        "firstName": "Angelita",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79554713",
+        "tenantId": null
+      },
+      {
+        "reference": "93913d9c-b11f-4b3e-92d6-f95c46398ace",
+        "email": "Janis.Ryan-Cummerata@gmail.com",
+        "firstName": "Forest",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3630683",
+        "tenantId": null
+      },
+      {
+        "reference": "6b9c5741-e4bd-499e-9761-7c660afad5b2",
+        "email": "Gustave_Schneider32@yahoo.com",
+        "firstName": "Dena",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99663030",
+        "tenantId": null
+      },
+      {
+        "reference": "9f139091-25d3-43d5-bbbb-845e716c71c5",
+        "email": "Lloyd_Schowalter@gmail.com",
+        "firstName": "Callie",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/180.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "schedule": [
+      {
+        "id": "c94da741-e328-4e89-b8dd-83e79fb0d9ee",
+        "start_time": "2023-08-22T19:16:08.823Z",
+        "end_time": "2023-08-23T04:55:52.858Z",
+        "day_of_week": 82151,
+        "created_at": "2023-08-22T18:09:49.693Z",
+        "updated_at": "2023-08-23T11:41:15.055Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "44620a2b-3645-4c4a-a822-a77a2afb53a0",
+        "start_time": "2023-08-22T14:43:12.232Z",
+        "end_time": "2023-08-22T22:23:18.010Z",
+        "day_of_week": 79972,
+        "created_at": "2023-08-23T05:09:41.036Z",
+        "updated_at": "2023-08-22T17:35:36.227Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "33daf953-df88-4c60-a57f-4c0be374f700",
+        "start_time": "2023-08-23T11:36:35.346Z",
+        "end_time": "2023-08-23T10:31:38.503Z",
+        "day_of_week": 88081,
+        "created_at": "2023-08-22T17:26:36.650Z",
+        "updated_at": "2023-08-22T13:53:47.784Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "dc272323-1b7e-4893-86bf-d6bc6fc9a5ed",
+        "start_time": "2023-08-23T12:59:51.331Z",
+        "end_time": "2023-08-22T16:31:14.465Z",
+        "day_of_week": 85405,
+        "created_at": "2023-08-22T20:19:56.411Z",
+        "updated_at": "2023-08-22T20:30:52.856Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "49c6ecb6-7312-4594-a292-978212444232",
+        "start_time": "2023-08-22T16:14:56.546Z",
+        "end_time": "2023-08-23T06:57:05.681Z",
+        "day_of_week": 4991,
+        "created_at": "2023-08-22T16:23:31.572Z",
+        "updated_at": "2023-08-23T03:16:08.748Z",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "patient_record": [
+      {
+        "id": "be98426e-28b9-4093-915b-df9a20dc77a2",
+        "patient_name": "Alice Johnson",
+        "patient_age": 20067,
+        "patient_gender": "Female",
+        "medical_history": "No significant medical history",
+        "current_medication": "None",
+        "created_at": "2023-08-23T11:19:15.408Z",
+        "updated_at": "2023-08-22T16:13:51.089Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "5ee6392f-4c56-4f95-90e0-fe103854d142",
+        "patient_name": "Robert Thompson",
+        "patient_age": 39016,
+        "patient_gender": "Male",
+        "medical_history": "Asthma",
+        "current_medication": "Ibuprofen",
+        "created_at": "2023-08-22T22:08:49.477Z",
+        "updated_at": "2023-08-22T13:40:28.433Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "8ceaed67-9609-4855-8fc3-99a9bcff1f91",
+        "patient_name": "Emily Davis",
+        "patient_age": 60007,
+        "patient_gender": "Female",
+        "medical_history": "Diabetes",
+        "current_medication": "Insulin",
+        "created_at": "2023-08-22T22:34:54.983Z",
+        "updated_at": "2023-08-22T20:10:56.998Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "24bfa1b6-78cc-45d4-a96a-387d1a051979",
+        "patient_name": "Daniel Martinez",
+        "patient_age": 99399,
+        "patient_gender": "Male",
+        "medical_history": "High blood pressure",
+        "current_medication": "Lisinopril",
+        "created_at": "2023-08-22T16:26:00.107Z",
+        "updated_at": "2023-08-22T22:44:41.439Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "fb7f877a-6acc-437a-bb78-0730320a976f",
+        "patient_name": "Olivia Taylor",
+        "patient_age": 22979,
+        "patient_gender": "Female",
+        "medical_history": "Allergies",
+        "current_medication": "Antihistamine",
+        "created_at": "2023-08-23T03:15:37.812Z",
+        "updated_at": "2023-08-22T18:20:28.407Z",
+        "nurse_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "bde9d59e-dc05-4d47-b018-cb0eb22971f8",
+        "created_at": "2023-08-22T22:37:10.479Z",
+        "updated_at": "2023-08-23T02:25:42.929Z",
+        "invoice_amount": 76883
+      },
+      {
+        "id": "0abfdc8a-8883-4a39-af04-75d535aa1fd4",
+        "created_at": "2023-08-23T00:58:36.897Z",
+        "updated_at": "2023-08-23T12:44:24.148Z",
+        "invoice_amount": 32492
+      },
+      {
+        "id": "e8bd3017-fffd-4abf-9a4e-20a8ccaff9e7",
+        "created_at": "2023-08-23T06:38:29.892Z",
+        "updated_at": "2023-08-22T15:38:50.969Z",
+        "invoice_amount": 46174
+      },
+      {
+        "id": "5486914b-be0d-4e80-adeb-12a255d2cbc7",
+        "created_at": "2023-08-22T18:16:21.974Z",
+        "updated_at": "2023-08-22T14:00:33.785Z",
+        "invoice_amount": 74434
+      },
+      {
+        "id": "d6b07407-b8b4-4bee-9fb0-e0cb8a03d33d",
+        "created_at": "2023-08-23T06:23:50.478Z",
+        "updated_at": "2023-08-22T15:32:38.090Z",
+        "invoice_amount": 17171
+      }
+    ],
+    "appointment": [
+      {
+        "id": "b97d85ee-e411-4665-a38f-e60ba5a1fa1c",
+        "date_time": "2023-08-22T23:52:20.261Z",
+        "duration": 60283,
+        "status": "Scheduled",
+        "created_at": "2023-08-23T02:12:59.453Z",
+        "updated_at": "2023-08-23T12:42:40.203Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "ad35eb09-4f04-4dab-a193-95bb1ead5176",
+        "date_time": "2023-08-23T01:13:13.997Z",
+        "duration": 11284,
+        "status": "Cancelled",
+        "created_at": "2023-08-22T19:49:11.992Z",
+        "updated_at": "2023-08-22T21:05:54.872Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "9db5c6a1-f84e-42a2-af15-376b0eb7f201",
+        "date_time": "2023-08-23T05:25:21.621Z",
+        "duration": 65444,
+        "status": "Completed",
+        "created_at": "2023-08-23T00:31:24.587Z",
+        "updated_at": "2023-08-22T18:14:04.844Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "38dbc4a7-2178-42a3-8ec7-fdb6b5cc8f87",
+        "date_time": "2023-08-23T11:05:35.079Z",
+        "duration": 84803,
+        "status": "Rescheduled",
+        "created_at": "2023-08-22T19:04:41.580Z",
+        "updated_at": "2023-08-22T21:44:59.632Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "f4586771-56cc-4046-97ae-0d3af0cf3725",
+        "date_time": "2023-08-22T14:41:44.122Z",
+        "duration": 67372,
+        "status": "In Progress",
+        "created_at": "2023-08-22T21:51:43.263Z",
+        "updated_at": "2023-08-23T06:49:04.431Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "244023c6-a844-4463-9c77-3a04d77f0b57",
+        "email": "Jeremy97@hotmail.com",
+        "firstName": "Jairo",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62529899",
+        "tenantId": null
+      },
+      {
+        "reference": "a40fd93d-1c70-4fff-b5bc-3e6abaa7e40a",
+        "email": "Dell_Thompson@hotmail.com",
+        "firstName": "Burdette",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/453.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4b7e5ef4-a90e-485b-bf33-e54ddbcdf6e5",
+        "email": "Heidi72@hotmail.com",
+        "firstName": "Abraham",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37390600",
+        "tenantId": null
+      },
+      {
+        "reference": "f6db8c1f-adb5-464c-bc52-1533c6115443",
+        "email": "Aida_Medhurst43@yahoo.com",
+        "firstName": "Jane",
+        "lastName": "Langosh",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31567507",
+        "tenantId": null
+      },
+      {
+        "reference": "2e1d4102-a538-467e-9db4-b94f435d1aaf",
+        "email": "Iva.Baumbach15@gmail.com",
+        "firstName": "Fredrick",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/185.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "schedule": [
+      {
+        "id": "83b5c9c7-bd56-4699-bf97-6ace6d62c85f",
+        "start_time": "2023-08-23T06:33:35.176Z",
+        "end_time": "2023-08-23T05:47:47.080Z",
+        "day_of_week": 15041,
+        "created_at": "2023-08-23T03:28:40.318Z",
+        "updated_at": "2023-08-22T18:26:29.034Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "f1066224-3b19-478a-adeb-b0db7eafd535",
+        "start_time": "2023-08-23T07:40:33.598Z",
+        "end_time": "2023-08-23T05:47:16.331Z",
+        "day_of_week": 71188,
+        "created_at": "2023-08-23T11:26:54.582Z",
+        "updated_at": "2023-08-22T15:40:26.037Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "64cd9010-17d0-44d4-98e3-f74ee48f2fa1",
+        "start_time": "2023-08-22T19:55:48.954Z",
+        "end_time": "2023-08-23T09:14:08.187Z",
+        "day_of_week": 13846,
+        "created_at": "2023-08-22T13:46:39.743Z",
+        "updated_at": "2023-08-23T02:25:36.013Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "79f65f5b-aedc-413e-84dd-6b1a23a7b26e",
+        "start_time": "2023-08-22T23:35:50.442Z",
+        "end_time": "2023-08-23T11:41:41.077Z",
+        "day_of_week": 5142,
+        "created_at": "2023-08-22T18:10:39.555Z",
+        "updated_at": "2023-08-23T04:33:57.343Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "a42d8eb4-349e-4ecb-894e-01e933772afb",
+        "start_time": "2023-08-23T03:31:04.480Z",
+        "end_time": "2023-08-22T22:26:06.371Z",
+        "day_of_week": 88423,
+        "created_at": "2023-08-23T05:55:22.583Z",
+        "updated_at": "2023-08-23T02:34:54.835Z",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "patient_record": [
+      {
+        "id": "3e58877e-5cee-49d2-b095-91dbfbe341d3",
+        "patient_name": "Alice Johnson",
+        "patient_age": 22922,
+        "patient_gender": "Female",
+        "medical_history": "Asthma",
+        "current_medication": "Albuterol",
+        "created_at": "2023-08-23T00:16:31.178Z",
+        "updated_at": "2023-08-23T08:22:07.113Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "baadbd6d-cef8-4d49-bc9e-7d7c290bd89a",
+        "patient_name": "David Thompson",
+        "patient_age": 93949,
+        "patient_gender": "Male",
+        "medical_history": "Diabetes",
+        "current_medication": "Insulin",
+        "created_at": "2023-08-23T11:31:31.746Z",
+        "updated_at": "2023-08-22T20:27:24.087Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "6810dcad-a72e-4257-8791-f2bf1e6265f8",
+        "patient_name": "Emily Davis",
+        "patient_age": 35108,
+        "patient_gender": "Female",
+        "medical_history": "Hypertension",
+        "current_medication": "Lisinopril",
+        "created_at": "2023-08-23T03:40:25.031Z",
+        "updated_at": "2023-08-23T08:50:28.296Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "a1f8b4af-712f-4b24-b25d-c18cac9589ef",
+        "patient_name": "James Anderson",
+        "patient_age": 87157,
+        "patient_gender": "Male",
+        "medical_history": "Migraine",
+        "current_medication": "Sumatriptan",
+        "created_at": "2023-08-23T10:06:13.867Z",
+        "updated_at": "2023-08-23T00:55:38.733Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "f40727f7-4fbc-45ac-81fe-659d3ad4bad7",
+        "patient_name": "Olivia Martinez",
+        "patient_age": 56764,
+        "patient_gender": "Female",
+        "medical_history": "Arthritis",
+        "current_medication": "Ibuprofen",
+        "created_at": "2023-08-22T22:08:46.998Z",
+        "updated_at": "2023-08-23T12:45:25.657Z",
+        "nurse_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "d58bd134-f082-4b1e-a7d7-c5f4848c79e7",
+        "created_at": "2023-08-23T02:18:33.939Z",
+        "updated_at": "2023-08-22T14:25:07.867Z",
+        "invoice_amount": 90034
+      },
+      {
+        "id": "06b1c966-28dc-4457-a55f-c4969ea5a459",
+        "created_at": "2023-08-22T23:21:50.636Z",
+        "updated_at": "2023-08-22T17:41:49.782Z",
+        "invoice_amount": 57288
+      },
+      {
+        "id": "4e401103-80b7-4c9d-8dd9-22960300120e",
+        "created_at": "2023-08-23T02:21:06.077Z",
+        "updated_at": "2023-08-22T15:13:34.575Z",
+        "invoice_amount": 73575
+      },
+      {
+        "id": "95126154-23bf-4c11-be01-aa84905c3012",
+        "created_at": "2023-08-23T02:02:56.183Z",
+        "updated_at": "2023-08-23T08:48:34.448Z",
+        "invoice_amount": 69629
+      },
+      {
+        "id": "d2f4bb28-3c6e-49c0-9e1b-a385a9122303",
+        "created_at": "2023-08-22T18:21:22.217Z",
+        "updated_at": "2023-08-22T14:01:50.264Z",
+        "invoice_amount": 99433
+      }
+    ],
+    "appointment": [
+      {
+        "id": "495406c5-55da-4e71-8fa4-6dbea2b018ce",
+        "date_time": "2023-08-22T18:33:42.430Z",
+        "duration": 83269,
+        "status": "Scheduled",
+        "created_at": "2023-08-23T06:03:13.816Z",
+        "updated_at": "2023-08-23T09:36:38.589Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "42b40b8c-222f-4296-9a59-b88a9ba072c0",
+        "date_time": "2023-08-23T00:40:58.110Z",
+        "duration": 18613,
+        "status": "Cancelled",
+        "created_at": "2023-08-22T15:40:04.968Z",
+        "updated_at": "2023-08-22T17:13:05.757Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "a2975bb8-05dc-4f87-9a49-8099c3d54b8a",
+        "date_time": "2023-08-23T01:13:22.574Z",
+        "duration": 63827,
+        "status": "Completed",
+        "created_at": "2023-08-22T14:03:10.214Z",
+        "updated_at": "2023-08-22T17:41:16.390Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "d0440aab-a4d5-4e86-8045-2bf1d91aae84",
+        "date_time": "2023-08-23T00:10:12.056Z",
+        "duration": 17054,
+        "status": "Rescheduled",
+        "created_at": "2023-08-23T00:05:50.865Z",
+        "updated_at": "2023-08-22T17:16:12.705Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "414fa57d-9101-4bd8-a141-48687d1cbeb3",
+        "date_time": "2023-08-22T14:32:40.530Z",
+        "duration": 60359,
+        "status": "Pending",
+        "created_at": "2023-08-23T07:44:25.824Z",
+        "updated_at": "2023-08-23T11:32:27.990Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0bd33e2c-2230-4847-b223-9a5f97a52e6b",
+        "email": "Rowena22@gmail.com",
+        "firstName": "Bernice",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18257648",
+        "tenantId": null
+      },
+      {
+        "reference": "f63a131d-18b2-4467-8c52-6a8edc9b5e3f",
+        "email": "Pietro.Ratke@gmail.com",
+        "firstName": "Kimberly",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1039.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "42321b08-0597-4306-bc0a-bf5161b050d3",
+        "email": "Anika16@hotmail.com",
+        "firstName": "Omari",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87815225",
+        "tenantId": null
+      },
+      {
+        "reference": "f51025e3-c88f-4b66-af4b-3291605ae2a6",
+        "email": "Velma.Sipes51@hotmail.com",
+        "firstName": "William",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/944.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "50723920-3747-48a4-b22f-3346bf148b36",
+        "email": "Brown_Bogisich@yahoo.com",
+        "firstName": "Era",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70634025",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "schedule": [
+      {
+        "id": "cb086294-8125-46d0-87a8-c7567889cdd9",
+        "start_time": "2023-08-22T17:39:55.021Z",
+        "end_time": "2023-08-23T05:51:29.021Z",
+        "day_of_week": 57110,
+        "created_at": "2023-08-23T03:50:54.897Z",
+        "updated_at": "2023-08-23T06:09:29.338Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "5cf74262-dc1f-4c81-a02b-454f04bc99c6",
+        "start_time": "2023-08-23T03:15:48.782Z",
+        "end_time": "2023-08-23T07:06:25.611Z",
+        "day_of_week": 40500,
+        "created_at": "2023-08-22T23:49:49.529Z",
+        "updated_at": "2023-08-22T19:27:01.908Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "7288b9f2-e1bc-47fc-8e41-98ad96a86a18",
+        "start_time": "2023-08-22T19:18:35.724Z",
+        "end_time": "2023-08-22T14:12:52.362Z",
+        "day_of_week": 42919,
+        "created_at": "2023-08-23T02:27:27.961Z",
+        "updated_at": "2023-08-22T19:27:02.624Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "89c89539-1dc0-4a01-83ba-54c5d2f1511a",
+        "start_time": "2023-08-23T05:10:25.800Z",
+        "end_time": "2023-08-22T21:56:53.467Z",
+        "day_of_week": 276,
+        "created_at": "2023-08-23T04:30:00.490Z",
+        "updated_at": "2023-08-23T11:11:43.264Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "ec35959b-68da-441a-a3fd-31c71970e514",
+        "start_time": "2023-08-23T00:03:18.913Z",
+        "end_time": "2023-08-22T13:15:08.887Z",
+        "day_of_week": 32183,
+        "created_at": "2023-08-23T10:18:52.568Z",
+        "updated_at": "2023-08-23T11:52:30.194Z",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "patient_record": [
+      {
+        "id": "790f82f5-b956-497d-b4db-37c3851ba823",
+        "patient_name": "Alice Johnson",
+        "patient_age": 8645,
+        "patient_gender": "Female",
+        "medical_history": "Allergies",
+        "current_medication": "Antibiotics",
+        "created_at": "2023-08-22T22:34:53.736Z",
+        "updated_at": "2023-08-22T19:44:01.601Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "bd9470e1-138e-4499-9458-aeb0559dffdb",
+        "patient_name": "David Thompson",
+        "patient_age": 53021,
+        "patient_gender": "Male",
+        "medical_history": "Asthma",
+        "current_medication": "Painkillers",
+        "created_at": "2023-08-22T18:44:47.993Z",
+        "updated_at": "2023-08-23T01:56:39.851Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "0d7ace4f-3f17-4f64-9558-c7c3fa92c0ed",
+        "patient_name": "Emily Davis",
+        "patient_age": 48259,
+        "patient_gender": "Female",
+        "medical_history": "Diabetes",
+        "current_medication": "Antidepressants",
+        "created_at": "2023-08-22T21:49:43.055Z",
+        "updated_at": "2023-08-22T15:51:33.092Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "839c6623-eed4-4ef0-89ce-0ffa583e1a76",
+        "patient_name": "James Anderson",
+        "patient_age": 94867,
+        "patient_gender": "Male",
+        "medical_history": "High blood pressure",
+        "current_medication": "Antihistamines",
+        "created_at": "2023-08-22T23:44:24.066Z",
+        "updated_at": "2023-08-23T02:00:27.768Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "d7fa00f0-8973-405f-8d51-8337d36964ff",
+        "patient_name": "Olivia Martinez",
+        "patient_age": 1998,
+        "patient_gender": "Female",
+        "medical_history": "Heart disease",
+        "current_medication": "Vitamins",
+        "created_at": "2023-08-22T21:05:41.018Z",
+        "updated_at": "2023-08-22T15:09:28.342Z",
+        "nurse_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "288ffc7c-c24c-48ff-a7fa-d17431b5a74f",
+        "created_at": "2023-08-23T12:48:25.630Z",
+        "updated_at": "2023-08-23T08:37:59.904Z",
+        "invoice_amount": 3040
+      },
+      {
+        "id": "abb472e3-4142-49f5-b9df-3194f98d9d04",
+        "created_at": "2023-08-22T20:02:34.481Z",
+        "updated_at": "2023-08-23T03:49:22.788Z",
+        "invoice_amount": 69209
+      },
+      {
+        "id": "36f5a7c3-c9f7-4785-8cd0-0cf71a622339",
+        "created_at": "2023-08-23T01:31:50.619Z",
+        "updated_at": "2023-08-23T09:39:40.964Z",
+        "invoice_amount": 98276
+      },
+      {
+        "id": "3538984c-95f1-4746-9c0c-719a6aa51ec5",
+        "created_at": "2023-08-23T08:36:32.499Z",
+        "updated_at": "2023-08-23T09:33:30.466Z",
+        "invoice_amount": 47687
+      },
+      {
+        "id": "7fcbae56-5506-46ff-88ae-645b3b4fd66a",
+        "created_at": "2023-08-23T05:11:49.121Z",
+        "updated_at": "2023-08-23T02:34:50.766Z",
+        "invoice_amount": 79557
+      }
+    ],
+    "appointment": [
+      {
+        "id": "44b9be18-d696-4db7-872d-817591a88782",
+        "date_time": "2023-08-22T13:28:45.400Z",
+        "duration": 57639,
+        "status": "Scheduled",
+        "created_at": "2023-08-22T23:04:59.747Z",
+        "updated_at": "2023-08-22T23:24:58.836Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "74f8c3af-4171-4239-a218-0b8893ab65d5",
+        "date_time": "2023-08-22T22:53:16.074Z",
+        "duration": 96165,
+        "status": "Cancelled",
+        "created_at": "2023-08-23T09:02:32.969Z",
+        "updated_at": "2023-08-22T18:43:15.814Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "134fb760-a89d-4340-904a-e7ae71d7774a",
+        "date_time": "2023-08-23T01:28:20.355Z",
+        "duration": 91221,
+        "status": "Completed",
+        "created_at": "2023-08-22T22:24:12.275Z",
+        "updated_at": "2023-08-23T06:12:52.406Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "f907c59b-a8f1-4b88-b975-283276ae3769",
+        "date_time": "2023-08-22T15:17:34.600Z",
+        "duration": 8111,
+        "status": "Rescheduled",
+        "created_at": "2023-08-22T15:13:10.703Z",
+        "updated_at": "2023-08-23T08:31:54.637Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "f31e0eef-8798-41de-a8c7-c807b9a0a7b7",
+        "date_time": "2023-08-23T07:45:58.395Z",
+        "duration": 13824,
+        "status": "In progress",
+        "created_at": "2023-08-22T23:05:58.899Z",
+        "updated_at": "2023-08-23T09:47:07.219Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "62b4f446-4769-47a3-9826-df2beecbdc5a",
+        "email": "Brandyn_Windler38@yahoo.com",
+        "firstName": "Isaias",
+        "lastName": "O'Reilly-Durgan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10436041",
+        "tenantId": null
+      },
+      {
+        "reference": "a846816e-377c-4f17-9a85-edecafe03154",
+        "email": "Gabe_Bernhard73@hotmail.com",
+        "firstName": "Anastasia",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/628.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e0d71537-6202-46d8-8d4d-a6c85a2a1a54",
+        "email": "Obie_Schaden49@hotmail.com",
+        "firstName": "Jed",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1008.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b537930c-5ea9-4560-9414-0bb48609edcd",
+        "email": "Tyrell48@hotmail.com",
+        "firstName": "Jabari",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/26.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "39db936c-3990-4124-94de-25616c655a13",
+        "email": "Juliet_Renner31@hotmail.com",
+        "firstName": "Berneice",
+        "lastName": "Carter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12509501",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "schedule": [
+      {
+        "id": "dd7f992f-8b27-4492-ad95-a3547038b0df",
+        "start_time": "2023-08-23T11:07:31.438Z",
+        "end_time": "2023-08-23T11:29:04.756Z",
+        "day_of_week": 23545,
+        "created_at": "2023-08-22T13:54:58.824Z",
+        "updated_at": "2023-08-22T17:45:49.529Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "d6008b43-5f12-4412-9a94-a5aa778d1257",
+        "start_time": "2023-08-22T23:22:33.933Z",
+        "end_time": "2023-08-22T21:01:59.238Z",
+        "day_of_week": 65307,
+        "created_at": "2023-08-22T18:28:36.387Z",
+        "updated_at": "2023-08-23T06:16:17.620Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "c2dc6b00-214b-4aa0-a2b2-926c0463eaa3",
+        "start_time": "2023-08-23T01:12:02.209Z",
+        "end_time": "2023-08-22T13:16:45.817Z",
+        "day_of_week": 20829,
+        "created_at": "2023-08-23T12:24:41.332Z",
+        "updated_at": "2023-08-22T17:55:59.374Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "c485b444-3629-43c0-87be-26e960971395",
+        "start_time": "2023-08-22T16:24:12.097Z",
+        "end_time": "2023-08-22T14:16:12.599Z",
+        "day_of_week": 37885,
+        "created_at": "2023-08-23T08:00:34.204Z",
+        "updated_at": "2023-08-23T05:08:28.882Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "8f1f9f6b-9d8a-4268-8da8-22f15d88988e",
+        "start_time": "2023-08-23T07:11:47.776Z",
+        "end_time": "2023-08-23T06:25:27.489Z",
+        "day_of_week": 37568,
+        "created_at": "2023-08-23T00:14:57.415Z",
+        "updated_at": "2023-08-23T04:35:30.738Z",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "patient_record": [
+      {
+        "id": "e8437373-06de-443f-9c3e-83ce1f393828",
+        "patient_name": "John Doe",
+        "patient_age": 59727,
+        "patient_gender": "Male",
+        "medical_history": "No significant medical history",
+        "current_medication": "None",
+        "created_at": "2023-08-22T20:07:14.750Z",
+        "updated_at": "2023-08-23T01:37:31.461Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "a3b75e81-06b4-4c87-b584-079a9b4638b1",
+        "patient_name": "Jane Smith",
+        "patient_age": 41441,
+        "patient_gender": "Female",
+        "medical_history": "Hypertension",
+        "current_medication": "Aspirin",
+        "created_at": "2023-08-22T19:19:57.077Z",
+        "updated_at": "2023-08-23T03:46:04.891Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "d0e77e0a-14a5-449f-b6ab-f8b57d262f46",
+        "patient_name": "Michael Brown",
+        "patient_age": 4014,
+        "patient_gender": "Male",
+        "medical_history": "Diabetes",
+        "current_medication": "Metformin",
+        "created_at": "2023-08-23T03:13:18.084Z",
+        "updated_at": "2023-08-23T01:32:36.186Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "34af0ecc-119c-4f4c-a47d-e8b8c822d4d6",
+        "patient_name": "Sarah Jones",
+        "patient_age": 55266,
+        "patient_gender": "Female",
+        "medical_history": "Asthma",
+        "current_medication": "Albuterol",
+        "created_at": "2023-08-23T02:33:37.106Z",
+        "updated_at": "2023-08-22T19:05:02.615Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "34ab75e6-b244-47d0-a0ca-f7a3689c3f56",
+        "patient_name": "Robert Johnson",
+        "patient_age": 74670,
+        "patient_gender": "Male",
+        "medical_history": "Allergies",
+        "current_medication": "Antihistamine",
+        "created_at": "2023-08-23T09:21:47.242Z",
+        "updated_at": "2023-08-23T00:37:56.257Z",
+        "nurse_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "48524c06-c29f-4106-bf63-61f10b30dd8d",
+        "created_at": "2023-08-22T15:07:29.796Z",
+        "updated_at": "2023-08-23T11:43:33.515Z",
+        "invoice_amount": 40740
+      },
+      {
+        "id": "cf5f3a40-b6b2-44ea-ae88-d9452e3fbdf3",
+        "created_at": "2023-08-23T00:31:10.175Z",
+        "updated_at": "2023-08-23T12:57:20.971Z",
+        "invoice_amount": 99434
+      },
+      {
+        "id": "b62d8d38-e986-4370-bf27-bd46a7d306bc",
+        "created_at": "2023-08-23T04:17:16.112Z",
+        "updated_at": "2023-08-22T20:09:35.073Z",
+        "invoice_amount": 98095
+      },
+      {
+        "id": "cf30ebe3-aa52-4fc5-8beb-92891ba9f310",
+        "created_at": "2023-08-22T17:18:14.298Z",
+        "updated_at": "2023-08-22T21:00:52.905Z",
+        "invoice_amount": 2666
+      },
+      {
+        "id": "b05930a0-1c64-4d33-8fca-cb061a580cc7",
+        "created_at": "2023-08-23T00:26:18.343Z",
+        "updated_at": "2023-08-23T02:56:01.105Z",
+        "invoice_amount": 11894
+      }
+    ],
+    "appointment": [
+      {
+        "id": "05b24363-7ccb-4b9d-bedd-1a434e4c57a9",
+        "date_time": "2023-08-22T18:24:14.278Z",
+        "duration": 43519,
+        "status": "Scheduled",
+        "created_at": "2023-08-23T08:23:40.820Z",
+        "updated_at": "2023-08-22T19:10:29.846Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "34002ca9-b86e-433a-8f0e-bf889d61e832",
+        "date_time": "2023-08-23T04:20:02.148Z",
+        "duration": 17560,
+        "status": "Cancelled",
+        "created_at": "2023-08-22T23:27:17.171Z",
+        "updated_at": "2023-08-22T15:05:18.325Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "189af0d5-0812-4c83-9aef-3c849cb70a8c",
+        "date_time": "2023-08-22T22:31:45.751Z",
+        "duration": 77488,
+        "status": "Completed",
+        "created_at": "2023-08-22T14:11:18.993Z",
+        "updated_at": "2023-08-23T09:13:14.365Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "409c5ade-78f2-4d3c-8432-0ff521c2e4fb",
+        "date_time": "2023-08-23T00:57:56.270Z",
+        "duration": 54462,
+        "status": "Rescheduled",
+        "created_at": "2023-08-23T10:43:10.536Z",
+        "updated_at": "2023-08-23T12:45:05.660Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "441363bb-ffaa-46f5-934d-ab5fa3b234db",
+        "date_time": "2023-08-23T03:19:30.272Z",
+        "duration": 3436,
+        "status": "Pending",
+        "created_at": "2023-08-23T05:44:13.227Z",
+        "updated_at": "2023-08-22T18:59:14.387Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "755f5c3a-a61b-439c-a482-f2a32791c268",
+        "email": "Evert.Kirlin@yahoo.com",
+        "firstName": "Esmeralda",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/387.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eff24d7c-73fa-4a73-96c8-a94f407a3c46",
+        "email": "Bernhard.Crist68@hotmail.com",
+        "firstName": "Ceasar",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/697.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "55a7c7fa-2bb0-4ffd-a90c-2a1ec961aeb7",
+        "email": "Dawson54@yahoo.com",
+        "firstName": "Judah",
+        "lastName": "Keebler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/55.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b3304bb2-d6a0-493f-a952-ffa6036b57da",
+        "email": "Imogene.Kerluke40@hotmail.com",
+        "firstName": "Julien",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17268940",
+        "tenantId": null
+      },
+      {
+        "reference": "8923d948-3eca-45f5-9161-aebecb2d24a3",
+        "email": "Lawrence62@yahoo.com",
+        "firstName": "Moshe",
+        "lastName": "Langworth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92959554",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "schedule": [
+      {
+        "id": "008dca22-94d1-4011-96ea-5da21bec0a7c",
+        "start_time": "2023-08-22T15:56:15.458Z",
+        "end_time": "2023-08-23T10:43:30.227Z",
+        "day_of_week": 33561,
+        "created_at": "2023-08-23T12:40:56.603Z",
+        "updated_at": "2023-08-23T04:59:44.985Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "e07d0840-d81c-43d2-9a86-26a54361d789",
+        "start_time": "2023-08-22T18:10:28.907Z",
+        "end_time": "2023-08-23T11:22:14.762Z",
+        "day_of_week": 39363,
+        "created_at": "2023-08-22T22:57:07.794Z",
+        "updated_at": "2023-08-23T06:12:40.085Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "5b89a124-c8e1-4e48-bf9c-5032973889ac",
+        "start_time": "2023-08-23T08:17:25.806Z",
+        "end_time": "2023-08-22T18:15:38.033Z",
+        "day_of_week": 86225,
+        "created_at": "2023-08-23T00:00:37.383Z",
+        "updated_at": "2023-08-22T20:27:34.310Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "1234faed-d085-4257-b17a-4e812b1a6adf",
+        "start_time": "2023-08-23T10:48:33.643Z",
+        "end_time": "2023-08-22T20:52:30.364Z",
+        "day_of_week": 72476,
+        "created_at": "2023-08-22T21:52:16.176Z",
+        "updated_at": "2023-08-22T13:32:34.853Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "906052d1-1484-48b6-9fba-a9dfdd84c6d5",
+        "start_time": "2023-08-23T12:45:44.833Z",
+        "end_time": "2023-08-23T01:19:55.727Z",
+        "day_of_week": 61349,
+        "created_at": "2023-08-23T07:26:53.914Z",
+        "updated_at": "2023-08-23T07:41:23.175Z",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "patient_record": [
+      {
+        "id": "885502cb-b1d1-4f2c-b26e-3504df7349e4",
+        "patient_name": "John Doe",
+        "patient_age": 71875,
+        "patient_gender": "Male",
+        "medical_history": "No significant medical history",
+        "current_medication": "None",
+        "created_at": "2023-08-23T12:17:33.304Z",
+        "updated_at": "2023-08-23T00:22:25.112Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "aa13a9b8-6777-4d1f-b7ef-9f43dfc41101",
+        "patient_name": "Jane Smith",
+        "patient_age": 24328,
+        "patient_gender": "Female",
+        "medical_history": "Allergic to penicillin",
+        "current_medication": "Ibuprofen for pain relief",
+        "created_at": "2023-08-23T09:53:48.375Z",
+        "updated_at": "2023-08-23T09:36:08.300Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "c35140f3-8ea2-49cd-960b-11c81be2245e",
+        "patient_name": "Mike Johnson",
+        "patient_age": 75728,
+        "patient_gender": "Male",
+        "medical_history": "Previous surgery on knee",
+        "current_medication": "Antidepressants",
+        "created_at": "2023-08-22T19:12:29.961Z",
+        "updated_at": "2023-08-23T01:02:57.511Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "5f4603d3-585f-4df2-b2c8-6ebad386921d",
+        "patient_name": "Sarah Brown",
+        "patient_age": 48570,
+        "patient_gender": "Female",
+        "medical_history": "Asthma since childhood",
+        "current_medication": "Antihistamines for allergies",
+        "created_at": "2023-08-23T10:04:05.330Z",
+        "updated_at": "2023-08-22T21:37:31.350Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "e08f4c39-fae7-4606-a3ae-80a437708546",
+        "patient_name": "Alex Taylor",
+        "patient_age": 6540,
+        "patient_gender": "Male",
+        "medical_history": "Diagnosed with diabetes",
+        "current_medication": "Insulin for diabetes",
+        "created_at": "2023-08-22T16:50:13.751Z",
+        "updated_at": "2023-08-23T08:58:08.100Z",
+        "nurse_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "977a8c69-1f22-4b5e-8b34-df47599a371f",
+        "created_at": "2023-08-22T19:55:05.361Z",
+        "updated_at": "2023-08-23T00:12:37.421Z",
+        "invoice_amount": 8099
+      },
+      {
+        "id": "18d115aa-04fa-4529-a623-e515da00a2a0",
+        "created_at": "2023-08-22T17:18:30.727Z",
+        "updated_at": "2023-08-23T09:43:13.717Z",
+        "invoice_amount": 77520
+      },
+      {
+        "id": "84b65223-5c1d-4855-97da-619f31042e5c",
+        "created_at": "2023-08-23T05:14:55.639Z",
+        "updated_at": "2023-08-22T23:44:59.480Z",
+        "invoice_amount": 86311
+      },
+      {
+        "id": "bcc773bf-8a66-4291-9c71-5f052c68168c",
+        "created_at": "2023-08-22T15:15:05.542Z",
+        "updated_at": "2023-08-23T07:45:43.287Z",
+        "invoice_amount": 34514
+      },
+      {
+        "id": "54c4aa98-5d83-45c0-bb3d-48388b8e2177",
+        "created_at": "2023-08-23T07:14:05.848Z",
+        "updated_at": "2023-08-22T21:02:22.772Z",
+        "invoice_amount": 842
+      }
+    ],
+    "appointment": [
+      {
+        "id": "0245d593-6833-4122-af2d-90cbfbb1c0a5",
+        "date_time": "2023-08-22T16:41:18.010Z",
+        "duration": 54064,
+        "status": "Scheduled",
+        "created_at": "2023-08-23T04:25:17.487Z",
+        "updated_at": "2023-08-23T11:22:37.921Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "b67c4314-05a1-4266-ac9f-ae986c15b4de",
+        "date_time": "2023-08-22T15:41:29.914Z",
+        "duration": 68301,
+        "status": "Cancelled",
+        "created_at": "2023-08-22T15:15:46.695Z",
+        "updated_at": "2023-08-22T14:37:05.599Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "de67750f-4915-4690-bd80-038003d486d7",
+        "date_time": "2023-08-22T21:00:47.473Z",
+        "duration": 61002,
+        "status": "Completed",
+        "created_at": "2023-08-23T12:51:52.992Z",
+        "updated_at": "2023-08-23T00:17:42.532Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "519a4afd-5511-4c99-8384-e536084c9097",
+        "date_time": "2023-08-22T19:24:39.116Z",
+        "duration": 43725,
+        "status": "Rescheduled",
+        "created_at": "2023-08-22T13:23:43.652Z",
+        "updated_at": "2023-08-23T10:01:09.969Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "28427bdd-e1cb-4da3-8cc3-c32ebe1016b1",
+        "date_time": "2023-08-23T05:09:54.269Z",
+        "duration": 88376,
+        "status": "No-show",
+        "created_at": "2023-08-22T20:46:04.606Z",
+        "updated_at": "2023-08-22T23:20:02.168Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "36d55f83-ed28-4edb-b2a0-5ec066900eaf",
+        "email": "Emmett_Erdman40@yahoo.com",
+        "firstName": "Johnnie",
+        "lastName": "Mraz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/963.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "156990da-755b-421b-a206-1b5f0c1ad00a",
+        "email": "Verona.McCullough@gmail.com",
+        "firstName": "Samara",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39755752",
+        "tenantId": null
+      },
+      {
+        "reference": "b791d925-dee5-4ac4-b836-534d83bb97bc",
+        "email": "Kane_Wilkinson@hotmail.com",
+        "firstName": "Emmalee",
+        "lastName": "Dietrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16651988",
+        "tenantId": null
+      },
+      {
+        "reference": "196c1b85-1025-4739-8549-86f183aeb990",
+        "email": "Alia92@yahoo.com",
+        "firstName": "Collin",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48350440",
+        "tenantId": null
+      },
+      {
+        "reference": "86686bed-25a8-4c3c-93c6-93a1f2d51299",
+        "email": "Deron89@hotmail.com",
+        "firstName": "Marlon",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/986.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "schedule": [
+      {
+        "id": "a0e698fe-cb37-4caa-b55b-286a076e3fa0",
+        "start_time": "2023-08-22T23:17:18.917Z",
+        "end_time": "2023-08-23T12:54:25.952Z",
+        "day_of_week": 34618,
+        "created_at": "2023-08-23T10:51:35.486Z",
+        "updated_at": "2023-08-22T16:37:38.184Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "d5001ab0-01af-4691-9937-f0a5a064ce5d",
+        "start_time": "2023-08-22T20:44:21.312Z",
+        "end_time": "2023-08-23T10:54:24.097Z",
+        "day_of_week": 15441,
+        "created_at": "2023-08-22T19:08:52.141Z",
+        "updated_at": "2023-08-22T13:03:46.846Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "6d857084-c52e-4ef0-8459-cd04f11ac9bc",
+        "start_time": "2023-08-23T01:15:50.711Z",
+        "end_time": "2023-08-22T21:52:48.332Z",
+        "day_of_week": 38204,
+        "created_at": "2023-08-23T08:43:58.277Z",
+        "updated_at": "2023-08-23T00:59:23.389Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "cced5aea-5fcb-4518-a3d9-50e8f95eef1f",
+        "start_time": "2023-08-23T12:10:10.847Z",
+        "end_time": "2023-08-22T21:31:25.907Z",
+        "day_of_week": 67582,
+        "created_at": "2023-08-23T07:55:08.827Z",
+        "updated_at": "2023-08-22T22:38:05.726Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "ff9d3311-4639-4438-af17-eaf3245994c3",
+        "start_time": "2023-08-23T04:13:22.769Z",
+        "end_time": "2023-08-22T14:13:19.476Z",
+        "day_of_week": 78502,
+        "created_at": "2023-08-23T07:21:43.247Z",
+        "updated_at": "2023-08-23T02:36:08.022Z",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "patient_record": [
+      {
+        "id": "7596e2c3-e03b-4b82-befb-f95f782d0cc5",
+        "patient_name": "Emily Thompson",
+        "patient_age": 51964,
+        "patient_gender": "Female",
+        "medical_history": "Allergies",
+        "current_medication": "Ibuprofen",
+        "created_at": "2023-08-23T12:50:29.995Z",
+        "updated_at": "2023-08-23T01:15:40.623Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "55fdeac7-bb7a-4ed3-8647-b855915bbdcf",
+        "patient_name": "Daniel Davis",
+        "patient_age": 52070,
+        "patient_gender": "Male",
+        "medical_history": "Asthma",
+        "current_medication": "Lisinopril",
+        "created_at": "2023-08-22T15:50:46.159Z",
+        "updated_at": "2023-08-22T23:48:26.112Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "a37ee70c-382c-433d-8fc0-29b3a8d9c2f5",
+        "patient_name": "Olivia Martinez",
+        "patient_age": 49910,
+        "patient_gender": "Female",
+        "medical_history": "Diabetes",
+        "current_medication": "Metformin",
+        "created_at": "2023-08-22T21:11:02.265Z",
+        "updated_at": "2023-08-22T19:31:57.111Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "18010b15-f8b0-40b9-a1f5-660ae4ab90f6",
+        "patient_name": "James Anderson",
+        "patient_age": 12257,
+        "patient_gender": "Male",
+        "medical_history": "High Blood Pressure",
+        "current_medication": "Albuterol",
+        "created_at": "2023-08-23T06:54:17.096Z",
+        "updated_at": "2023-08-23T09:16:00.741Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "7df19eae-fb9c-4e19-a4ff-311e6681e451",
+        "patient_name": "Sophia Wilson",
+        "patient_age": 62584,
+        "patient_gender": "Female",
+        "medical_history": "Heart Disease",
+        "current_medication": "Simvastatin",
+        "created_at": "2023-08-23T12:55:06.104Z",
+        "updated_at": "2023-08-23T11:40:38.542Z",
+        "nurse_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "5afdb3e7-4a49-4f5d-9e5e-d79c72376b3f",
+        "created_at": "2023-08-22T16:00:45.661Z",
+        "updated_at": "2023-08-22T18:38:34.136Z",
+        "invoice_amount": 10132
+      },
+      {
+        "id": "2ef1642c-edeb-42cf-9810-5cd1f0a8dc31",
+        "created_at": "2023-08-22T20:43:37.811Z",
+        "updated_at": "2023-08-22T16:01:01.824Z",
+        "invoice_amount": 49167
+      },
+      {
+        "id": "516acaa6-3f9a-452d-8b6c-5f16703fc540",
+        "created_at": "2023-08-22T23:24:02.244Z",
+        "updated_at": "2023-08-23T07:12:01.774Z",
+        "invoice_amount": 58652
+      },
+      {
+        "id": "6b745a6d-5914-4e97-97c9-670be13462ad",
+        "created_at": "2023-08-22T21:19:09.178Z",
+        "updated_at": "2023-08-22T22:37:39.086Z",
+        "invoice_amount": 54919
+      },
+      {
+        "id": "bba6c1b0-8ca8-444d-93cd-8131e7ebf5e6",
+        "created_at": "2023-08-22T21:02:59.289Z",
+        "updated_at": "2023-08-22T13:48:12.887Z",
+        "invoice_amount": 32343
+      }
+    ],
+    "appointment": [
+      {
+        "id": "8ddd00bc-6b52-4f01-81ff-efd0dbaf543a",
+        "date_time": "2023-08-23T07:02:34.653Z",
+        "duration": 94601,
+        "status": "Scheduled",
+        "created_at": "2023-08-23T07:19:30.746Z",
+        "updated_at": "2023-08-23T05:37:43.698Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "09b1b309-0125-4014-8fc9-4b509ee7257d",
+        "date_time": "2023-08-23T03:41:40.852Z",
+        "duration": 29296,
+        "status": "Cancelled",
+        "created_at": "2023-08-22T15:35:13.061Z",
+        "updated_at": "2023-08-22T23:58:31.473Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "11fefa5e-93bb-4079-b959-50d2e597ea4d",
+        "date_time": "2023-08-23T00:45:12.167Z",
+        "duration": 64807,
+        "status": "Completed",
+        "created_at": "2023-08-22T17:19:23.401Z",
+        "updated_at": "2023-08-22T22:24:27.895Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "a2a2a28c-f043-441e-8481-3857e6c30045",
+        "date_time": "2023-08-22T17:56:32.245Z",
+        "duration": 68143,
+        "status": "Rescheduled",
+        "created_at": "2023-08-22T15:47:23.204Z",
+        "updated_at": "2023-08-22T13:30:52.424Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "3baeea22-b7a2-4b8e-bbdd-73f62c54ae3f",
+        "date_time": "2023-08-23T02:36:13.556Z",
+        "duration": 45416,
+        "status": "Pending",
+        "created_at": "2023-08-22T16:21:12.226Z",
+        "updated_at": "2023-08-22T23:58:33.728Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b8fff643-759c-4ec6-852a-79decc806767",
+        "email": "Barbara.Roberts41@hotmail.com",
+        "firstName": "Timothy",
+        "lastName": "Trantow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15029953",
+        "tenantId": null
+      },
+      {
+        "reference": "f533aba9-ce36-457b-a32b-5fdab41898bd",
+        "email": "Samantha.Kuphal@yahoo.com",
+        "firstName": "Thurman",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/367.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9165028d-3ae5-40bf-9e5e-8219c557e149",
+        "email": "Chet.Labadie@hotmail.com",
+        "firstName": "Claudia",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/314.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0a4746d2-a22e-4783-a0ca-30af06cee0ab",
+        "email": "Valentin_Daniel@gmail.com",
+        "firstName": "Breanna",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/554.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7b75a429-12cd-4fee-a4ec-d4b2273c4557",
+        "email": "Dax81@gmail.com",
+        "firstName": "Brisa",
+        "lastName": "Price",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21665841",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "schedule": [
+      {
+        "id": "8900b1b5-5c2e-4120-b4b5-d2af50502226",
+        "start_time": "2023-08-23T10:25:26.848Z",
+        "end_time": "2023-08-23T06:22:54.015Z",
+        "day_of_week": 65578,
+        "created_at": "2023-08-22T20:46:16.926Z",
+        "updated_at": "2023-08-23T03:42:00.488Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "4035dc55-c522-4f5e-bb87-652721df3031",
+        "start_time": "2023-08-23T12:57:21.283Z",
+        "end_time": "2023-08-23T12:12:31.536Z",
+        "day_of_week": 26912,
+        "created_at": "2023-08-22T14:06:07.179Z",
+        "updated_at": "2023-08-22T13:18:47.214Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "d739e7e0-ebe0-48cd-9d42-5d8f3881970b",
+        "start_time": "2023-08-23T06:53:48.542Z",
+        "end_time": "2023-08-22T23:16:40.508Z",
+        "day_of_week": 14752,
+        "created_at": "2023-08-23T04:09:48.480Z",
+        "updated_at": "2023-08-22T20:33:50.185Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "e86daa7a-51eb-460b-88d8-67e53a79e98e",
+        "start_time": "2023-08-22T19:21:05.463Z",
+        "end_time": "2023-08-23T00:19:50.573Z",
+        "day_of_week": 41676,
+        "created_at": "2023-08-22T22:29:32.101Z",
+        "updated_at": "2023-08-22T20:06:33.422Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "ecb53d86-6296-4f35-bb27-5361267af108",
+        "start_time": "2023-08-22T15:26:13.182Z",
+        "end_time": "2023-08-22T18:37:36.761Z",
+        "day_of_week": 11617,
+        "created_at": "2023-08-23T11:22:21.103Z",
+        "updated_at": "2023-08-23T06:26:07.676Z",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "patient_record": [
+      {
+        "id": "7045722b-65f2-41d0-a6af-daed043f8202",
+        "patient_name": "Alice Johnson",
+        "patient_age": 68009,
+        "patient_gender": "Female",
+        "medical_history": "Hypertension",
+        "current_medication": "Lisinopril",
+        "created_at": "2023-08-22T19:21:43.570Z",
+        "updated_at": "2023-08-23T04:25:16.170Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "e954da62-ebb7-4d6d-8b4c-c69302ae5b3d",
+        "patient_name": "David Thompson",
+        "patient_age": 47388,
+        "patient_gender": "Male",
+        "medical_history": "Diabetes",
+        "current_medication": "Metformin",
+        "created_at": "2023-08-22T17:10:38.038Z",
+        "updated_at": "2023-08-22T17:13:19.002Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "ff3fe248-8b7e-459b-bbc1-fbf99567d495",
+        "patient_name": "Emily Davis",
+        "patient_age": 12346,
+        "patient_gender": "Female",
+        "medical_history": "Asthma",
+        "current_medication": "Albuterol",
+        "created_at": "2023-08-23T01:25:18.130Z",
+        "updated_at": "2023-08-22T17:16:56.950Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "884c4c38-ac65-4f24-97c8-303211aff874",
+        "patient_name": "James Anderson",
+        "patient_age": 25284,
+        "patient_gender": "Male",
+        "medical_history": "Arthritis",
+        "current_medication": "Ibuprofen",
+        "created_at": "2023-08-22T19:05:23.104Z",
+        "updated_at": "2023-08-23T04:56:27.264Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "2f13e711-bf6e-4f44-b649-e368bcffdfc7",
+        "patient_name": "Olivia Martinez",
+        "patient_age": 26264,
+        "patient_gender": "Female",
+        "medical_history": "Migraine",
+        "current_medication": "Sumatriptan",
+        "created_at": "2023-08-23T07:31:44.690Z",
+        "updated_at": "2023-08-23T06:15:46.941Z",
+        "nurse_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "9aa4a3bd-cc45-43db-a444-c146c6b95465",
+        "created_at": "2023-08-22T13:28:04.137Z",
+        "updated_at": "2023-08-23T05:26:44.558Z",
+        "invoice_amount": 50609
+      },
+      {
+        "id": "a4599df2-28d6-46d5-8f86-3042f3aecf46",
+        "created_at": "2023-08-22T18:59:03.098Z",
+        "updated_at": "2023-08-23T12:55:58.850Z",
+        "invoice_amount": 58552
+      },
+      {
+        "id": "c15e0b97-b11f-418d-be2c-ba4cb62831d3",
+        "created_at": "2023-08-23T04:48:52.894Z",
+        "updated_at": "2023-08-22T14:33:51.006Z",
+        "invoice_amount": 10708
+      },
+      {
+        "id": "3cea1556-257f-42ce-817a-ad26676de598",
+        "created_at": "2023-08-23T12:43:45.353Z",
+        "updated_at": "2023-08-22T13:22:42.785Z",
+        "invoice_amount": 58009
+      },
+      {
+        "id": "2596648d-3ccb-4f3c-aeff-69f047cb74ea",
+        "created_at": "2023-08-22T23:02:00.791Z",
+        "updated_at": "2023-08-22T22:51:43.619Z",
+        "invoice_amount": 38475
+      }
+    ],
+    "appointment": [
+      {
+        "id": "70a37cb6-1d42-44fd-8ab3-226c36fad4c8",
+        "date_time": "2023-08-23T03:47:36.591Z",
+        "duration": 32693,
+        "status": "Scheduled",
+        "created_at": "2023-08-23T03:57:32.106Z",
+        "updated_at": "2023-08-22T15:53:15.561Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "2bbf15d6-2f96-41d1-a298-08a4300d7eb9",
+        "date_time": "2023-08-23T12:48:30.059Z",
+        "duration": 78967,
+        "status": "Cancelled",
+        "created_at": "2023-08-22T21:11:15.111Z",
+        "updated_at": "2023-08-23T05:47:59.515Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "bdf32b4f-1ff2-4ccd-b1b3-fa1f06c1faa2",
+        "date_time": "2023-08-23T08:23:43.928Z",
+        "duration": 67425,
+        "status": "Completed",
+        "created_at": "2023-08-22T18:02:06.436Z",
+        "updated_at": "2023-08-23T10:54:42.184Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "9b1aa2bd-38f3-4d3e-91c4-3f25ec43f387",
+        "date_time": "2023-08-23T11:24:12.469Z",
+        "duration": 59384,
+        "status": "Rescheduled",
+        "created_at": "2023-08-22T16:52:53.836Z",
+        "updated_at": "2023-08-23T01:00:50.825Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "d328f9a8-b4c7-42b9-8c16-45e5b81d00e7",
+        "date_time": "2023-08-23T12:40:04.894Z",
+        "duration": 96719,
+        "status": "In Progress",
+        "created_at": "2023-08-23T12:03:47.356Z",
+        "updated_at": "2023-08-22T20:24:22.886Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d95c1fc3-63bb-4652-8dcc-480e18c5f833",
+        "email": "Ashly.Dietrich@hotmail.com",
+        "firstName": "Vicky",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5432349",
+        "tenantId": null
+      },
+      {
+        "reference": "7bc009fa-354e-45e6-863f-a2aa3139c8d3",
+        "email": "Lyda_Keeling8@hotmail.com",
+        "firstName": "Sammy",
+        "lastName": "Kutch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18305036",
+        "tenantId": null
+      },
+      {
+        "reference": "d17e30a8-3d54-46fd-a572-7c4c268d102d",
+        "email": "Marcelina.Larkin11@hotmail.com",
+        "firstName": "Margarette",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/495.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4bd83a17-d2b7-49a5-9d13-a071350aed42",
+        "email": "Darwin.Collins-Daniel@hotmail.com",
+        "firstName": "Laurence",
+        "lastName": "Waters",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41432396",
+        "tenantId": null
+      },
+      {
+        "reference": "0700eee7-3697-46e0-a819-9cdbbcc47dd4",
+        "email": "Manuela_Miller@yahoo.com",
+        "firstName": "Otto",
+        "lastName": "Rowe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/5.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "schedule": [
+      {
+        "id": "a0584ab2-3564-4d3f-b163-ab00ebf406f1",
+        "start_time": "2023-08-23T12:04:54.965Z",
+        "end_time": "2023-08-22T14:46:03.068Z",
+        "day_of_week": 14288,
+        "created_at": "2023-08-23T04:03:51.507Z",
+        "updated_at": "2023-08-22T21:45:54.236Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "d6d0aada-3dc8-434b-9041-0ef2f5139428",
+        "start_time": "2023-08-23T07:31:49.141Z",
+        "end_time": "2023-08-23T02:49:14.888Z",
+        "day_of_week": 6437,
+        "created_at": "2023-08-23T05:17:06.841Z",
+        "updated_at": "2023-08-22T17:10:10.938Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "285b5861-abc8-49f7-afc7-b55b0e9c4173",
+        "start_time": "2023-08-23T08:00:08.093Z",
+        "end_time": "2023-08-23T08:14:00.561Z",
+        "day_of_week": 81832,
+        "created_at": "2023-08-22T20:20:57.893Z",
+        "updated_at": "2023-08-22T18:48:48.302Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "88b13480-66c8-4a8f-beef-7915acc9d5f5",
+        "start_time": "2023-08-22T21:07:21.909Z",
+        "end_time": "2023-08-22T16:28:37.999Z",
+        "day_of_week": 28007,
+        "created_at": "2023-08-23T05:52:13.323Z",
+        "updated_at": "2023-08-23T06:04:04.016Z",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "771cbee6-a7bb-41c6-9abf-6b472d6df8f5",
+        "start_time": "2023-08-23T03:55:43.381Z",
+        "end_time": "2023-08-23T05:32:25.289Z",
+        "day_of_week": 82482,
+        "created_at": "2023-08-22T14:24:37.120Z",
+        "updated_at": "2023-08-23T10:33:19.991Z",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "patient_record": [
+      {
+        "id": "c3965d38-190e-4a0e-96c6-a4a63a8d8f0d",
+        "patient_name": "Emily Thompson",
+        "patient_age": 59924,
+        "patient_gender": "Female",
+        "medical_history": "Asthma",
+        "current_medication": "Ventolin",
+        "created_at": "2023-08-22T18:15:52.142Z",
+        "updated_at": "2023-08-22T22:34:30.347Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "24a7fbb7-6f78-463c-ab56-cbeda22b2922",
+        "patient_name": "Oliver Davis",
+        "patient_age": 6884,
+        "patient_gender": "Male",
+        "medical_history": "Diabetes",
+        "current_medication": "Metformin",
+        "created_at": "2023-08-23T00:56:03.554Z",
+        "updated_at": "2023-08-23T00:50:05.552Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "8d95cc05-af47-4704-81bc-98592bc95d0b",
+        "patient_name": "Sophia Wilson",
+        "patient_age": 36674,
+        "patient_gender": "Female",
+        "medical_history": "High Blood Pressure",
+        "current_medication": "Lisinopril",
+        "created_at": "2023-08-23T03:19:12.543Z",
+        "updated_at": "2023-08-22T17:30:06.820Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "fe313c4b-50e1-4e52-83d2-7597cbe7c664",
+        "patient_name": "James Anderson",
+        "patient_age": 45810,
+        "patient_gender": "Male",
+        "medical_history": "Migraine",
+        "current_medication": "Sumatriptan",
+        "created_at": "2023-08-23T02:06:06.528Z",
+        "updated_at": "2023-08-23T01:22:30.475Z",
+        "nurse_id": "user_entity_pk"
+      },
+      {
+        "id": "7449467c-ab26-43fb-88c6-f3b118b08627",
+        "patient_name": "Ava Martinez",
+        "patient_age": 51110,
+        "patient_gender": "Female",
+        "medical_history": "Arthritis",
+        "current_medication": "Ibuprofen",
+        "created_at": "2023-08-23T08:49:20.091Z",
+        "updated_at": "2023-08-22T13:43:58.087Z",
+        "nurse_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "b97c169f-4bd4-4578-8028-583f7d56aa55",
+        "created_at": "2023-08-22T20:02:35.663Z",
+        "updated_at": "2023-08-23T08:39:44.998Z",
+        "invoice_amount": 86959
+      },
+      {
+        "id": "a8898ba2-e2aa-4c4e-98b6-2c6500e9c51f",
+        "created_at": "2023-08-23T10:56:29.750Z",
+        "updated_at": "2023-08-22T17:12:01.848Z",
+        "invoice_amount": 2830
+      },
+      {
+        "id": "bcd1c828-d5f9-4125-8b6c-c36ec046f16d",
+        "created_at": "2023-08-23T07:53:50.520Z",
+        "updated_at": "2023-08-23T04:14:50.079Z",
+        "invoice_amount": 84378
+      },
+      {
+        "id": "0c66dc19-da27-4c2f-81b6-eef77126e747",
+        "created_at": "2023-08-23T10:04:32.388Z",
+        "updated_at": "2023-08-23T05:22:51.428Z",
+        "invoice_amount": 38461
+      },
+      {
+        "id": "8207aef7-a15c-4828-a328-48fe8a7d7fd0",
+        "created_at": "2023-08-22T22:46:42.565Z",
+        "updated_at": "2023-08-22T13:57:20.054Z",
+        "invoice_amount": 57869
+      }
+    ],
+    "appointment": [
+      {
+        "id": "fbafc11e-2f61-44fe-96e4-aa98ca905c80",
+        "date_time": "2023-08-22T13:07:33.518Z",
+        "duration": 33197,
+        "status": "Pending",
+        "created_at": "2023-08-23T04:27:08.542Z",
+        "updated_at": "2023-08-22T20:20:20.492Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "78871266-6be2-4b16-90b0-9145755f478b",
+        "date_time": "2023-08-22T22:03:57.128Z",
+        "duration": 50209,
+        "status": "Confirmed",
+        "created_at": "2023-08-22T17:18:36.065Z",
+        "updated_at": "2023-08-22T18:39:08.842Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "2f87f9e3-9cac-42b4-806e-9ad50c3f68f6",
+        "date_time": "2023-08-22T17:17:07.237Z",
+        "duration": 81061,
+        "status": "Cancelled",
+        "created_at": "2023-08-22T19:20:12.023Z",
+        "updated_at": "2023-08-22T22:11:35.999Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "24dd5d7b-1fa3-4837-8168-dc8e19cb4909",
+        "date_time": "2023-08-22T20:13:24.022Z",
+        "duration": 99534,
+        "status": "Rescheduled",
+        "created_at": "2023-08-22T13:31:26.110Z",
+        "updated_at": "2023-08-22T19:53:51.539Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "02cba58b-4d92-41e2-901c-2d6cdcaf1daf",
+        "date_time": "2023-08-23T00:40:57.626Z",
+        "duration": 86059,
+        "status": "Completed",
+        "created_at": "2023-08-23T12:31:28.694Z",
+        "updated_at": "2023-08-22T22:34:43.487Z",
+        "doctor_id": "user_entity_pk",
+        "guest_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f51de168-2edd-4bc5-a5e5-65cfd1af36fb",
+        "email": "Donavon.Leannon@gmail.com",
+        "firstName": "Stephanie",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1026.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a3a78f2c-4847-42c0-9843-689e731e13e0",
+        "email": "Tyra74@gmail.com",
+        "firstName": "Raphael",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75918327",
+        "tenantId": null
+      },
+      {
+        "reference": "e179c3e4-9b2f-4557-bdcd-b307cb82e581",
+        "email": "Bernadette.Kerluke@gmail.com",
+        "firstName": "Katherine",
+        "lastName": "Steuber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/141.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "750432bc-a624-4418-a9bf-adf9269f794d",
+        "email": "Neil.Nolan71@hotmail.com",
+        "firstName": "Brody",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56862781",
+        "tenantId": null
+      },
+      {
+        "reference": "4b0ed7e3-08d2-498e-8b99-fd8dee083851",
+        "email": "Johnny43@gmail.com",
+        "firstName": "Stanley",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/956.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
